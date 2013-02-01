@@ -3,14 +3,14 @@
 ################################################################################
 
 nimbus.image: "us-east-1/ami-d726abbe"         #64-bit ubuntu
-nimbus.hardware: "m1.large"
+nimbus.hardware: "m1.small"
 
 supervisor.count: 2
 supervisor.image: "us-east-1/ami-d726abbe"         #64-bit ubuntu on eu-east-1
-supervisor.hardware: "m1.large"
+supervisor.hardware: "m1.small"
 #supervisor.spot.price: 1.60
 
 
 zookeeper.count: 1
 zookeeper.image: "us-east-1/ami-d726abbe"         #64-bit ubuntu
-zookeeper.hardware: "m1.large"
+zookeeper.hardware: "m1.small"
